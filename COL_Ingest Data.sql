@@ -1,0 +1,10 @@
+COPY Countries FROM 'C:\Datenbanken\transformed_data\Countries.csv' CSV HEADER DELIMITER ',' ;
+COPY Cities FROM 'C:\Datenbanken\transformed_data\Cities.csv' CSV HEADER DELIMITER ',' ;
+COPY Salaries FROM 'C:\Datenbanken\transformed_data\Salaries.csv' CSV HEADER DELIMITER ',' ;
+COPY Categories FROM 'C:\Datenbanken\transformed_data\Categories.csv' CSV HEADER DELIMITER ',' ;
+COPY Items FROM 'C:\Datenbanken\transformed_data\Items.csv' CSV HEADER DELIMITER ',' ;
+COPY Prices FROM 'C:\Datenbanken\transformed_data\Prices.csv' CSV HEADER DELIMITER ',' ;
+COPY Households FROM 'C:\Datenbanken\transformed_data\Households.csv' CSV HEADER DELIMITER ',' ;
+COPY HouseholdsCities FROM 'C:\Datenbanken\transformed_data\HouseholdsCities.csv' CSV HEADER DELIMITER ',' ;
+COPY VariableCosts FROM 'C:\Datenbanken\transformed_data\VariableCosts.csv' CSV HEADER DELIMITER ',' ;
+COPY FixedCosts FROM 'C:\Datenbanken\transformed_data\FixedCosts.csv' CSV HEADER DELIMITER ',' ;
